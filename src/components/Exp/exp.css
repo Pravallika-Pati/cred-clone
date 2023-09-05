@@ -1,0 +1,24 @@
+.cred-exp{
+    background-color: var(--bg-blue);
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg.jpg);
+}
+
+@media all and(max-width:1279px){
+    .cred-exp{
+        background-position:center bottom;
+    }
+}
+@media all and(max-width:767px){
+    .cred-exp{
+        background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg-mobile.jpg);
+        background-position: right center;
+        /* padding: 195px 40px 90px; */
+        min-height: 1150px;
+    }
+    .cred-exp-heading{
+        margin-top: 400px;
+    }
+    .cred-exp-des{
+        margin-top: 100px;
+    }
+}
